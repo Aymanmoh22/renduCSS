@@ -30,13 +30,116 @@ button {
     background-color: rgb(202, 162, 126);
     color:rgb(0, 0, 0);
     border-radius: 7px;
-    height: 30px;      
+    height: 63px;
+    width: 120%;
+}
+#bouton {
+    height: 63px;
+    width: 20%;
+}
+#resto {
+    width: 28%;
 }
 section {
     display: flex;
+    justify-content: center; 
+    align-items:last baseline; 
+    margin-bottom: 50px;
+}
+#column{
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    background-color: rgb(244, 166, 102);
+}
+.section-fond{
+    background-image: url("smoky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-family: "Cookie", cursive;
+    font-size: 50px;
+    color: rgb(199, 52, 52);
+}
+.menu button {
+    width: 20%;
+    margin: auto;
+}
+.viande {
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 400px;
+}
+.lieu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:60vw ;
+    background-image: url("trouver-resto_fr.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150vh;
+}
+.lieu button {
+    margin: auto;
+}
+.adresse {
+    display: flex;
     justify-content: center;    
 }
-.second {
-    width: ;
-    height: ;
+#canette {
+    width: 900px;
 }
+.reseau {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 40px;
+}
+.bonus {
+    display: flex;
+    justify-content: space-between;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+}
+.affiche {
+    display: flex;
+    justify-content: left;
+}
+h3 {
+    text-align: center;
+    font-family: "Cookie", cursive;
+    font-size: 26px;
+}
+#fin {
+    background-color: bisque;
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 277px;
+    box-shadow: 5px 5px 5px 5px rgb(225, 211, 185);
+
+}
+#complet {
+        width: 522px;
+    }
