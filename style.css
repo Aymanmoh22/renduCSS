@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: center;
     justify-content: space-between; 
-    background-color: orange;
+    background-color:rgb(244, 166, 102) ;
     padding: 10px;  
     align-items: center;
 }
@@ -39,6 +39,7 @@ button {
 }
 #resto {
     width: 28%;
+    margin-top: 315px;
 }
 section {
     display: flex;
@@ -90,11 +91,13 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width:60vw ;
+    width: 60vw;
     background-image: url("trouver-resto_fr.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 150vh;
+    background-size: cover;
+    height: 100%;
+    background-position: bottom;
+    height: 75vh;
 }
 .lieu button {
     margin: auto;
@@ -123,23 +126,46 @@ img {
 }
 .affiche {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 7em;
 }
 h3 {
-    text-align: center;
+    text-align: left;
     font-family: "Cookie", cursive;
-    font-size: 26px;
+    font-size: 1.5em;
+}
+.compo {
+    padding: 23px;
+    
 }
 #fin {
-    background-color: bisque;
-    width: 25%;
-    padding: 20px;
     border-radius: 10px;
     text-align: center;
-    margin-top: 277px;
-    box-shadow: 5px 5px 5px 5px rgb(225, 211, 185);
-
+    margin: 50px;
+    line-height: 50px;
+    font-size: 17px;
 }
 #complet {
         width: 522px;
     }
+.position {
+    display: flex;
+
+}
+.espace {
+    margin-right: 50px;
+}
+.conclusion {
+    display: flex;
+
+}
+#second {
+    text-align: center;
+}
+.finalité {
+    background-color: rgba(255, 228, 196, 0.413);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #9369378a
+}
